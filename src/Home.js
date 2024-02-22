@@ -1,7 +1,7 @@
 // import React from "react";
 // import React, { useEffect } from "react";
 
-import React, {useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Search from "./component/Search";
 import Detail from "./component/Detail";
@@ -33,7 +33,7 @@ function Home() {
     if (e.key === "Enter") {
       axios(apiurl + "&s=" + state.s).then(({ data }) => {
         let results = data.Search;
-        console.log('true');
+        console.log("true");
 
         setState((prevState) => {
           return {
@@ -44,8 +44,6 @@ function Home() {
       });
     }
   };
-
-   
 
   const openDetail = (id) => {
     axios(apiurl + "&i=" + id).then(({ data }) => {
@@ -71,14 +69,14 @@ function Home() {
           <div className="md:w-3/12">
             <Link to={"/"}>
               <span className="text-3xl font-bold text-yellow-200 tracking-wide">
-                Hot<span className="text-gray-100">Flix</span>
+                Move<span className="text-gray-100">Flix</span>
               </span>
             </Link>
           </div>
           {/* menu */}
           <div id="mySidepanel" className="menu md:w-9/12">
             <div className="flex flex-col justify-start md:justify-end md:items-center md:flex-row text-md md:text-sm leading-5 p-4 gap-3 tracking-wider">
-              <div className="flex flex-col justify-start tracking-widest md:flex-row gap-5 mt-8 md:mt-0 md:gap-8 md:px-5">
+              <div className="flex flex-col justify-start tracking-widest md:flex-row gap-5 mt-8 md:mt-0 md:gap-8 md:px-5 font-semibold">
                 <Link className="text-left link link-underline py-1.5" to={"/"}>
                   HotFlix
                 </Link>
@@ -92,7 +90,7 @@ function Home() {
                   className="text-left link link-underline py-1.5"
                   to={"/Pricingplan"}
                 >
-                  PricingPlan
+                  Pricing
                 </Link>
               </div>
 
@@ -103,7 +101,10 @@ function Home() {
               <div className="flex mt-5 md:mt-0">
                 <Link
                   className="px-4 py-2 shadow-sm shadow-yellow-200/50 bg-gray-900 text-yellow-200 rounded-md hover:bg-gray-700 duration-50 tracking-widest"
-                  to={"/Login"} >Login|Signup</Link>
+                  to={"/Login"}
+                >
+                  Login|Signup
+                </Link>
               </div>
             </div>
           </div>

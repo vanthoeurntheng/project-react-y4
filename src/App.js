@@ -14,6 +14,7 @@ import pic2 from "./images/pic2.jpg";
 import pic3 from "./images/pic3.jpg";
 import pic4 from "./images/pic4.jpg";
 import pic5 from "./images/pic5.jpg";
+import background from "./images/banner_bg.jpg";
 import { TiMediaPlay } from "react-icons/ti";
 import { FcCheckmark } from "react-icons/fc";
 import { FiX } from "react-icons/fi";
@@ -31,8 +32,25 @@ function App() {
         <Route path="/Signup" component={Signup} />
       </Switch>
 
-      <div className="flex flex-col justify-center items-center relative p-3">
-        <div className="max-w-7xl mt-20 text-gray-100 tracking-wider z-10">
+      <div className="flex flex-col justify-center items-center relative">
+        <div className='flex justify-center items-center'>
+          <img src={background} className='relative'></img>
+          <div className='flex flex-col absolute mdtop-[25%] left-20 text-gray-100 tracking-wider'>
+            <span className='text-xl font-bold'>MoveFlix</span>
+            <span className='text-2xl md:text-6xl sm:mt-3 font-bold'>Unlimited <span className='text-yellow-200'>Movie,</span></span>
+            <span className='text-3xl md:text-6xl sm:mt-3 font-bold'>TVs Shows, & More.</span>
+            <div className='mt-5 flex flex-wrap items-center gap-3 tracking-wider text-sm'>
+              <span className='bg-gray-100 px-2 py-0.5 text-gray-800'>PG18</span>
+              <span className='border px-3 py-0.5 text-gray-100'>HD</span>
+              <span className=''>Action, Comedy</span>
+              <span className=''>2021, 120min</span>
+            </div>
+            <div className='mt-8 text-sm'>
+              <button className='px-6 py-1.5 sm:py-2.5  border-2 bg-gray-900 border-yellow-200 rounded-full'>WATCH NOW</button>
+            </div>
+          </div>
+        </div>
+        <div className="max-w-7xl mt-10 text-gray-100 tracking-wider z-10 p-3">
           <span className="text-3xl font-semibold ">Expected premiere</span>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 mt-5 py-5">
             <div className="flex flex-col">
@@ -97,7 +115,7 @@ function App() {
 
       {/* footer */}
       <div className="mt-5 flex flex-col justify-center items-center p-3 bg-gray-950">
-        <div className="lg:max-w-7xl xl:w-[1280px] mt-20 text-gray-100 tracking-wider z-10">
+        <div className="w-full mt-20 text-gray-100 tracking-wider z-10 p-3">
           <span className="text-3xl font-bold text-yellow-500 tracking-wider">
             Hot
             <span className="text-gray-100">Flix - Best Place for Movies</span>
@@ -228,12 +246,12 @@ function App() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center bg-gray-900 py-5 w-full">
-        <div className="flex justify-center gap-5 md:justify-between flex-wrap items-center text-gray-100 w-[1280px]">
+      <div className="flex justify-center items-center bg-gray-900 p-5 w-full">
+        <div className="flex justify-center gap-5 md:justify-between flex-wrap items-center text-gray-100 w-full">
 
           <div className="flex gap-5">
             <span className="text-3xl font-bold text-yellow-200 tracking-wide">
-              Hot<span className="text-gray-100">Flix</span>
+              Move<span className="text-gray-100">Flix</span>
             </span>
             <div className="flex flex-col text-sm">
               <span className="">© HOTFLIX, 2019—2021</span>

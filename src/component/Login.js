@@ -81,7 +81,7 @@ class Login extends React.Component {
                   </button>
                 </div>
                 <div className="flex justify-center px-1">
-                  <Link to="/Signup" className="text-base text-yellow-200 hover:text-gray-800 hover:underline duration-500 tracking-wider" >
+                  <Link to="/Signup" className="text-base text-yellow-200 hover:text-yellow-400 hover:underline duration-500 tracking-wider" >
                     Signup
                   </Link>
                 </div>
