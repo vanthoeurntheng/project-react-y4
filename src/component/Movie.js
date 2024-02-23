@@ -1,5 +1,4 @@
 // App.js
-
 import React, { useState } from "react";
 import { useEffect } from "react";
 import "./Cate.css"

@@ -5,7 +5,6 @@ import Detail from "./Detail";
 import "../App.css";
 import Search from "../component/Search";
 
-
 import { TiMediaPlay } from "react-icons/ti";
 
 function Moveflix() {
