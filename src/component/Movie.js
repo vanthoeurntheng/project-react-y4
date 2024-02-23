@@ -15,7 +15,7 @@ const Movie = () => {
     setMovies(data.Search);
   };
   useEffect(() => {
-    searchMovies("cambodia");
+    searchMovies("power");
   }, []);
 
   return (
