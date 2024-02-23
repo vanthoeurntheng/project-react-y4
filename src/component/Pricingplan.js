@@ -9,7 +9,7 @@ function Pricingplan() {
           <div className="max-w-7xl mt-5 flex flex-col justify-center items-center p-3 shadow-xl">
             <div className="w-full mt-20 text-gray-100 tracking-wider z-10 p-3">
               <span className="text-3xl font-bold text-yellow-200 tracking-wider">
-                Move
+                Mov
                 <span className="text-gray-100">
                   Flix - Best Place for Movies
                 </span>
@@ -147,7 +147,7 @@ function Pricingplan() {
           <div className="flex justify-center gap-5 md:justify-between flex-wrap items-center text-gray-100 w-full">
             <div className="flex gap-5">
               <span className="text-3xl font-bold text-yellow-200 tracking-wide">
-                Move<span className="text-gray-100">Flix</span>
+                Mov<span className="text-gray-100">Flix</span>
               </span>
               <div className="flex flex-col text-sm">
                 <span className="">© HOTFLIX, 2019—2021</span>
