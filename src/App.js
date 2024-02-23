@@ -68,10 +68,10 @@ function App() {
         
               <div className="flex mt-5 md:mt-0">
                 <Link
-                  className="px-4 py-2 shadow-sm shadow-yellow-200/50 bg-gray-900 text-yellow-200 rounded-lg hover:bg-gray-700 duration-50 tracking-wide"
+                  className="px-8 py-1.5 shadow-sm shadow-yellow-200/50 bg-gray-900 text-yellow-200 rounded-lg hover:bg-gray-800 duration-50 tracking-wide"
                   to={"/Login"}
                 >
-                  LOGIN | SIGNUP
+                  LOGIN
                 </Link>
               </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import img1 from "../images/img1.png"
 import img2 from "../images/img2.png"
 import img3 from "../images/img3.png"
@@ -7,10 +8,20 @@ import img5 from "../images/img5.png"
 import img6 from "../images/img6.png"
 import img7 from "../images/img7.png"
 import img8 from "../images/img8.png"
+import poster from "../images/poster.jpg"
 
 function Tvshow() {
   return (
     <section className="flex flex-col justify-center items-center mt-20">
+
+      <div className='flex justify-center items-center relative'>
+          <img src={poster} className='opacity-50'/>
+          <div className='font-bold absolute m-auto flex flex-col justify-center items-center text-yellow-200 tracking-wider'>
+            <span className='text-4xl sm:text-5xl'>TV SHOWS</span>
+            <Link to="/" className='font-semibold text-sm'>MOVFLIX | <span className='text-gray-50'>TV SHOW</span></Link>
+          </div>
+      </div>
+
       <div className="max-w-7xl mt-10 text-gray-100 tracking-wider z-10 p-3">
         <span className="text-xs font-semibold text-yellow-200">
           ONLINE STREAMING
