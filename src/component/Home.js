@@ -5,6 +5,11 @@ import pic2 from "../images/pic2.jpg";
 import pic3 from "../images/pic3.jpg";
 import pic4 from "../images/pic4.jpg";
 import pic5 from "../images/pic5.jpg";
+import pic6 from "../images/pic6.jpg";
+import pic7 from "../images/pic7.jpg";
+import pic8 from "../images/pic8.jpg";
+import pic9 from "../images/pic9.jpg";
+import pic10 from "../images/pic10.jpg";
 import background from "../images/banner_bg.jpg";
 import { TiMediaPlay } from "react-icons/ti";
 function Home() {
@@ -94,6 +99,61 @@ function Home() {
                 </div>
               </div>
               <span className="mt-3">Blindshorting</span>
+            </div>
+
+            {/* 6 */}
+            <div className="flex flex-col">
+              <div className="relative content">
+                <img src={pic6} className="rounded-lg" />
+                <div className="cursor-pointer text-4xl bg-gray-300 rounded-full p-1.5 border-[5px] border-gray-600 absolute top-[40%] left-[40%] hover:border-yellow-500 hover:bg-white duration-500">
+                  <TiMediaPlay className="text-orange-400" />
+                </div>
+              </div>
+              <span className="mt-3">Blindshorting</span>
+            </div>
+
+            {/* 7 */}
+            <div className="flex flex-col">
+              <div className="relative content">
+                <img src={pic7} className="rounded-lg" />
+                <div className="cursor-pointer text-4xl bg-gray-300 rounded-full p-1.5 border-[5px] border-gray-600 absolute top-[40%] left-[40%] hover:border-yellow-500 hover:bg-white duration-500">
+                  <TiMediaPlay className="text-orange-400" />
+                </div>
+              </div>
+              <span className="mt-3">Blindshorting</span>
+            </div>
+
+            {/* 8 */}
+            <div className="flex flex-col">
+              <div className="relative content">
+                <img src={pic8} className="rounded-lg" />
+                <div className="cursor-pointer text-4xl bg-gray-300 rounded-full p-1.5 border-[5px] border-gray-600 absolute top-[40%] left-[40%] hover:border-yellow-500 hover:bg-white duration-500">
+                  <TiMediaPlay className="text-orange-400" />
+                </div>
+              </div>
+              <span className="mt-3">Benched</span>
+            </div>
+
+            {/* 9 */}
+            <div className="flex flex-col">
+              <div className="relative content">
+                <img src={pic9} className="rounded-lg" />
+                <div className="cursor-pointer text-4xl bg-gray-300 rounded-full p-1.5 border-[5px] border-gray-600 absolute top-[40%] left-[40%] hover:border-yellow-500 hover:bg-white duration-500">
+                  <TiMediaPlay className="text-orange-400" />
+                </div>
+              </div>
+              <span className="mt-3">Speak Life</span>
+            </div>
+
+            {/* 10 */}
+            <div className="flex flex-col">
+              <div className="relative content">
+                <img src={pic10} className="rounded-lg" />
+                <div className="cursor-pointer text-4xl bg-gray-300 rounded-full p-1.5 border-[5px] border-gray-600 absolute top-[40%] left-[40%] hover:border-yellow-500 hover:bg-white duration-500">
+                  <TiMediaPlay className="text-orange-400" />
+                </div>
+              </div>
+              <span className="mt-3">Remember</span>
             </div>
           </div>
         </div>

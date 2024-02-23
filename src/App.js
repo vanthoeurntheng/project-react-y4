@@ -11,6 +11,7 @@ import Movie from './component/Movie';
 import Tvshow from './component/Tvshow';
 import { Link } from "react-router-dom";
 import { Divide as Hamburger } from "hamburger-react";
+import logo from "./images/logoo.png"
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
         <div className="head-item w-full md:max-w-7xl flex items-center justify-between  gap-2 py-2">
           {/* log */}
           <div className="md:w-3/12">
-            <Link to={"/"}>
+            <Link to={"/"} className="flex gap-1">
+              <div className=''><img src={logo}></img></div>
               <span className="text-3xl font-bold text-yellow-200 tracking-wide">
                 Mov<span className="text-gray-100">Flix</span>
               </span>

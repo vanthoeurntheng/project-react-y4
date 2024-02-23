@@ -15,27 +15,28 @@ function Pricingplan() {
                 </span>
               </span>
               <p className="tracking-wider font-light mt-10">
-                It is a long established fact that a reader will be distracted by
-                the readable content of a page when looking at its layout. The
-                point of using Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, as opposed to using. Many desktop
-                publishing packages and web page editors now use Lorem Ipsum as
-                their default model text, and a search for 'lorem ipsum' will
-                uncover many web sites still in their infancy.
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using. Many
+                desktop publishing packages and web page editors now use Lorem
+                Ipsum as their default model text, and a search for 'lorem
+                ipsum' will uncover many web sites still in their infancy.
               </p>
 
               <p className="tracking-wider font-light mt-5">
-                Content here, content here, making it look like readable English.
-                Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy. Various
-                versions have evolved over the years, sometimes by accident,
-                sometimes on purpose (injected humour and the like).
+                Content here, content here, making it look like readable
+                English. Many desktop publishing packages and web page editors
+                now use Lorem Ipsum as their default model text, and a search
+                for 'lorem ipsum' will uncover many web sites still in their
+                infancy. Various versions have evolved over the years, sometimes
+                by accident, sometimes on purpose (injected humour and the
+                like).
               </p>
 
               <div className="">
                 <div className="mt-10 grid md:grid-cols-3 gap-7 text-gray-100 font-light">
-                  <div className="py-10 px-7 bg-gray-800 rounded">
+                  <div className="py-10 px-7 bg-gray-800 rounded shadow shadow-indigo-400/50">
                     <div className="flex justify-between text-xl font-semibold">
                       <span>Basic</span>
                       <span className="text-yellow-500">Free</span>
@@ -60,19 +61,19 @@ function Pricingplan() {
                       <FiX className="text-xl text-red-500" />
                       <span> Limited Support</span>
                     </div>
-                    <div className="mt-5 flex gap-2 items-center justify-center text-lg bg-yellow-500 hover:bg-yellow-600 rounded p-2.5 cursor-pointer">
-                      <span className="block text-center text-gray-700 font-semibold">
+                    <div className="mt-5 flex gap-2 items-center justify-center text-lg bg-indigo-500 hover:bg-indigo-600 rounded p-2.5 cursor-pointer">
+                      <span className="block text-center text-gray-100 font-semibold">
                         {" "}
-                        CHOOSE PLANE
+                        CHOOSE PLAN
                       </span>
                     </div>
                   </div>
 
                   {/* 2 */}
-                  <div className="py-10 px-7 bg-gray-800 rounded">
+                  <div className="py-10 px-7 bg-gray-800 shadow shadow-green-500/50 rounded border-t-2 border-green-500">
                     <div className="flex justify-between text-xl font-semibold">
                       <span>Premium</span>
-                      <span className="text-green-500">$34.99 / month</span>
+                      <span className="text-green-500">$18.88 / month</span>
                     </div>
                     <div className="py-4 mt-3 border-b border-gray-900 flex gap-2 items-center text-lg">
                       <FcCheckmark className="text-xl" />
@@ -95,18 +96,18 @@ function Pricingplan() {
                       <span> 24/7 Support</span>
                     </div>
                     <div className="mt-5 flex gap-2 items-center justify-center text-lg bg-green-500 hover:bg-green-600 rounded p-2.5 cursor-pointer">
-                      <span className="block text-center text-gray-700 font-semibold">
+                      <span className="block text-center text-gray-100 font-semibold">
                         {" "}
-                        CHOOSE PLANE
+                        CHOOSE PLAN
                       </span>
                     </div>
                   </div>
 
                   {/* 3 */}
-                  <div className="py-10 px-7 bg-gray-800 rounded">
+                  <div className="py-10 px-7 bg-gray-800 rounded shadow shadow-yellow-500/50">
                     <div className="flex justify-between text-xl font-semibold">
                       <span>Cinematic</span>
-                      <span className="text-yellow-500">$49.99 / month</span>
+                      <span className="text-yellow-500">$28.28 / month</span>
                     </div>
                     <div className="py-4 mt-3 border-b border-gray-900 flex gap-2 items-center text-lg">
                       <FcCheckmark className="text-xl" />
@@ -129,9 +130,9 @@ function Pricingplan() {
                       <span>24/7 Support</span>
                     </div>
                     <div className="mt-5 flex gap-2 items-center justify-center text-lg bg-yellow-500 hover:bg-yellow-600 rounded p-2.5 cursor-pointer">
-                      <span className="block text-center text-gray-700 font-semibold">
+                      <span className="block text-center text-gray-100 font-semibold">
                         {" "}
-                        CHOOSE PLANE
+                        CHOOSE PLAN
                       </span>
                     </div>
                   </div>
