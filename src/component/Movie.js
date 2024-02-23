@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import "./Cate.css"
 import MovieItems from "./MovieItems";
+import Flix from "./Flix";
 
 const API_URL = "https://omdbapi.com?apikey=fe2f6c44";
 const Movie = () => {
@@ -19,7 +20,8 @@ const Movie = () => {
   }, []);
 
   return (
-    <div className="app mt-10">
+    <div className="app mt-20">
+      <Flix />
       <div className="flex flex-col justify-center items-center">
         <span className="trailer py-5">Comming Soon</span>
 

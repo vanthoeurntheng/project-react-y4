@@ -1,5 +1,7 @@
 // MovieCard.jsx
 import React from "react";
+import { Link } from "react-router-dom";
+
 // import App from './App';
 const MovieItems = ({ movie }) => {
   return (
@@ -9,7 +11,7 @@ const MovieItems = ({ movie }) => {
       </div> */}
 
       <div className="overlay absolute top-[40%] left-[30%]">
-        <span className="text-4xl font-bold text-yellow-200">SOON</span>
+        <Link className="text-4xl font-bold text-yellow-200" to='/'>SOON</Link>
       </div>
 
       <div>
